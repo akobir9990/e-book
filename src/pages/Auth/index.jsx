@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Auth() {
+export default function Auth() {
   const [isLoged, setIsLoged] = useState(true);
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
@@ -155,5 +155,3 @@ function Auth() {
     </div>
   );
 }
-
-export default Auth;
