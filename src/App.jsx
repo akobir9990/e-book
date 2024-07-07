@@ -1,9 +1,9 @@
-import Auth from "./pages/Auth";
+import Router from "./Router/Router";
 
 function App() {
   return (
     <div className="min-h-[100vh]">
-      <Auth />
+      <Router />
     </div>
   );
 }
